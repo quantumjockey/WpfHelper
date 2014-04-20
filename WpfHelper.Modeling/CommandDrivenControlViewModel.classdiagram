@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="5a648bcc-2a49-456e-96a6-88b9eb8726a6" name="CommandDrivenControlViewModel" linkedPackageId="ee54a63a-aba9-4bc6-912c-ec384e2e8f0a" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="8a10058b-24be-4461-be22-9cc67e218a78">
+      <profileInstance Id="5ed06d68-0598-4379-bfab-8b8aa4aaf247" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="86e66548-4b62-4de1-853f-0a54db6f95f9">
+      <profileInstance Id="0608dd4b-f92f-481d-a965-2a2653ba3a16" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="20fdbb24-b79b-481a-9301-a31a7e50389d" name="CommandDrivenControlViewModel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d891cea3-ef93-4c6b-930a-5f04699ed54e" />
+        <ownedAttributesInternal>
+          <property Id="9c5460e3-1207-4ad0-87fe-2091afaefef5" name="Action" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="03146bdb-0b91-4bae-a573-2f84680ba077" />
+          </property>
+          <property Id="adff0187-ae59-49d7-8302-95e9754f0254" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="abca0aa9-7ef8-467a-9f90-2df0b7f1b5b9" />
+          </property>
+          <property Id="f0ff6e2c-77cf-496c-85d2-7b9b7ec11917" name="ToolTip" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d4ff17ee-52d1-47c0-b220-1b32c098afd6" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="ee54a63a-aba9-4bc6-912c-ec384e2e8f0a" name="WpfHelper.Modeling">
+    <elementDefinition Id="28d12af5-cb5b-4480-80e0-fd2199ee86a9" />
+  </package>
+</logicalClassDesignerModel>

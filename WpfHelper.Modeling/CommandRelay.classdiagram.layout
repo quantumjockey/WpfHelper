@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CommandRelay">
+  <logicalClassDesignerModelMoniker Id="ea1268c3-f26b-4868-8f73-b6e6e8e2b046" />
+  <nestedChildShapes>
+    <classShape Id="3d66c4a2-0735-4335-9233-cf838d249eb4" absoluteBounds="4.625, 3.5, 1.5, 1.2226562251647311" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="6e800fda-5a73-4a5d-a0a2-260a7c784974" LastKnownName="CommandRelay" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="0af9a17f-2aee-400c-8fbe-171885d7375e" absoluteBounds="4.64, 3.89, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="eacedfcd-0183-4a21-98e1-e01455a8c547" absoluteBounds="4.64, 4.10117186754942, 1.4700000000000002, 0.521484357615312" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

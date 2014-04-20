@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="0bdddbc6-9193-4dcb-ae01-dd31bc938e75" name="ViewModelBase" linkedPackageId="5d9dacdc-0521-411f-992b-731d88699a98" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="906c9680-344c-44a9-8e69-d5876404ed11">
+      <profileInstance Id="9d7d5405-3683-4de6-bb00-312f3009026a" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="ab4bc019-dfbf-4594-8e6e-ff9a4988d4fc">
+      <profileInstance Id="a4bfd2b9-262a-4c9e-9723-15f3f5eec955" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="eec2255d-232d-49d4-8fc2-741a0b5095d3" name="ViewModelBase" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9e6446f6-3fd4-4ec2-b03e-e55a34d27701" />
+        <suppliersInternal>
+          <interfaceRealization Id="a9db3c32-c46f-4bc6-8a87-da32ddf76c31">
+            <interfaceMoniker Id="f14dd976-5fe3-4192-8366-de9811727551" LastKnownName="IViewModel" />
+            <elementDefinition Id="68f7a18e-38b3-4904-a46e-a8da72485b2e" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="b99743a8-8732-43d8-81b8-5a3484bdfc82" name="Header" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e20fc6cb-9eee-4c58-81a1-ab4686f0a775" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="f14dd976-5fe3-4192-8366-de9811727551" name="IViewModel" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6508da73-e93c-43b2-b371-1b94abf510d7" />
+        <ownedAttributes>
+          <property Id="ca0c4442-5b0e-4870-9e4b-7eafab00f2ab" name="Header" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="98da60e7-99b6-4246-a779-be2072c2c5ac" />
+          </property>
+        </ownedAttributes>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="5d9dacdc-0521-411f-992b-731d88699a98" name="WpfHelper.Modeling">
+    <elementDefinition Id="28d12af5-cb5b-4480-80e0-fd2199ee86a9" />
+  </package>
+</logicalClassDesignerModel>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="00a27960-2c81-436f-b5e8-2879fefd6402" name="propertyChangedNotificationHandling" linkedPackageId="63994e02-fbaf-47a9-8b91-ea235bb28a26" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="2d5b1dcb-d726-431d-957d-8525be383e11">
+      <profileInstance Id="94ba4446-041d-476c-b6bf-a2e46496e0c9" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="029326a9-fda9-4605-8e6f-a6804059b916">
+      <profileInstance Id="ee7347fe-dda6-4dd2-8cac-a196625d77e2" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="45f14e91-f521-49ba-851e-d8568c1d1fb4" name="propertyChangedNotificationHandling" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bbb0f34a-b4e1-4f48-b055-380d4575e593" />
+        <ownedOperationsInternal>
+          <operation Id="b4905cc1-0a30-4353-8b21-b0502362b431" name="OnPropertyChanged" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7d2361b5-f6fa-4ea2-8f56-fddf0b175f35" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="63994e02-fbaf-47a9-8b91-ea235bb28a26" name="WpfHelper.Modeling">
+    <elementDefinition Id="28d12af5-cb5b-4480-80e0-fd2199ee86a9" />
+  </package>
+</logicalClassDesignerModel>

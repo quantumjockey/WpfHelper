@@ -75,6 +75,25 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="6d7a324f-8d0d-4096-a51e-9a7614da0208">
+            <interfaceMoniker
+              Id="a39165ad-411c-4c0f-845e-19bd0495b6fe"
+              LastKnownName="IWindowViewModel"
+              LastKnownLocation="WpfHelper.Modeling.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="5b9bd2f4-c8a4-4dd7-b1bd-969e3863f73a"
+            isSubstitutable="false">
+            <classMoniker
+              Id="9e6446f6-3fd4-4ec2-b03e-e55a34d27701"
+              LastKnownName="ViewModelBase"
+              LastKnownLocation="WpfHelper.Modeling.uml" />
+          </generalization>
+        </generalsInternal>
         <ownedAttributesInternal>
           <property
             Id="e49437e2-cadb-459e-a593-6788be58ab20"
@@ -106,6 +125,15 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="68f7a18e-38b3-4904-a46e-a8da72485b2e">
+            <interfaceMoniker
+              Id="6508da73-e93c-43b2-b371-1b94abf510d7"
+              LastKnownName="IViewModel"
+              LastKnownLocation="WpfHelper.Modeling.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
         <ownedAttributesInternal>
           <property
             Id="e20fc6cb-9eee-4c58-81a1-ab4686f0a775"
