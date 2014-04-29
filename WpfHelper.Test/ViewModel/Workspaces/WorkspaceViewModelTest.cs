@@ -3,23 +3,23 @@
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using WpfHelper.ViewModel.Windows;
+using WpfHelper.ViewModel.Workspaces;
 
 #endregion
 ///////////////////////////////////////
 
-namespace WpfHelper.Test.ViewModel.Windows
+namespace WpfHelper.Test.ViewModel.Workspaces
 {
     /// <summary>
-    /// Unit tests addressing functionality within the "WpfHelper.ViewModel.Windows.WindowViewModel" class.
+    /// Describes the "WpfHelper.Workspaces.WorkspaceViewModel" class.
     /// </summary>
     [TestClass]
-    public class WindowViewModelTest
+    public class WorkspaceViewModelTest
     {
         ////////////////////////////////////////
         #region Constructor (Auto-generated)
 
-        public WindowViewModelTest()
+        public WorkspaceViewModelTest()
         {
             //
             // TODO: Add constructor logic here
@@ -57,25 +57,17 @@ namespace WpfHelper.Test.ViewModel.Windows
         [TestMethod]
         public void Constructor_EmptyDefaults_HeaderIsDefaultString()
         {
-            TestWindowViewModel _viewModel = new TestWindowViewModel();
+            TestWorkspaceViewModel _viewModel = new TestWorkspaceViewModel();
 
-            Assert.AreEqual("App Window", _viewModel.Header);
+            Assert.AreEqual("New Workspace", _viewModel.Header);
         }
 
         [TestMethod]
         public void Constructor_EmptyDefaults_ViewModelIsActive()
         {
-            TestWindowViewModel _viewModel = new TestWindowViewModel();
+            TestWorkspaceViewModel _viewModel = new TestWorkspaceViewModel();
 
             Assert.IsTrue(_viewModel.IsActive);
-        }
-
-        [TestMethod]
-        public void Constructor_EmptyDefaults_ViewModelIsNotParent()
-        {
-            TestWindowViewModel _viewModel = new TestWindowViewModel();
-
-            Assert.IsFalse(_viewModel.IsParent);
         }
 
         #endregion
@@ -83,10 +75,10 @@ namespace WpfHelper.Test.ViewModel.Windows
         ////////////////////////////////////////
         #region Child Classes (Used in Testing)
 
-        class TestWindowViewModel : WindowViewModel
+        class TestWorkspaceViewModel : WorkspaceViewModel
         {
             // empty constructor so class inherits values from base constructor
-            public TestWindowViewModel() { }
+            public TestWorkspaceViewModel() { }
         }
 
         #endregion

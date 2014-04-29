@@ -67,6 +67,7 @@
     <Compile Include="ViewModel\Controls\CommandDrivenControlViewModelTest.cs" />
     <Compile Include="ViewModel\ViewModelTest.cs" />
     <Compile Include="ViewModel\Windows\WindowViewModelTest.cs" />
+    <Compile Include="ViewModel\Workspaces\WorkspaceViewModelTest.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

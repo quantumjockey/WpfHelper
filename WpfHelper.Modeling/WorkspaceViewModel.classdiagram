@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="400957b1-1228-4aa9-a9e2-e573ee334b97" name="WorkspaceViewModel" linkedPackageId="156e0a68-c3b5-4f0b-a96d-1e272100cce6" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="75146f1f-e5d7-4609-87b5-fe6eba9a79f5">
+      <profileInstance Id="1d88fef3-eaad-4b17-a39f-aafd8fe88522" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a8f83937-9146-4013-b30c-12af83fdb16d">
+      <profileInstance Id="a2e03c31-c8d3-462c-91a0-08e027be4511" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="efede6c4-3451-466c-b971-8d399ff8a5da" name="IWorkspace" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="de3493d5-0428-435f-a8ca-15efdd3e7ea2" />
+        <ownedAttributes>
+          <property Id="cdfaa3a4-80dd-4fdb-a984-b209e88bdc1c" name="IsActive" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fba46c78-3243-4722-834a-919010a4610c" />
+          </property>
+        </ownedAttributes>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4db38a2a-d4e9-444d-b7e2-f3b4163c5da9" name="WorkspaceViewModel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4f4e9ce6-5d65-44fb-ac1a-2fff31304497" />
+        <suppliersInternal>
+          <interfaceRealization Id="779ab68e-36cf-4092-831c-02f132cd7805">
+            <interfaceMoniker Id="efede6c4-3451-466c-b971-8d399ff8a5da" LastKnownName="IWorkspace" />
+            <elementDefinition Id="e0dc0898-0ca7-44b3-ae34-d6051660fd1e" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="52d626f4-1d01-49d6-a9a1-e00d6eed154a" name="IsActive" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f51eb2c7-77db-4b0a-8073-8d5d080557be" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="156e0a68-c3b5-4f0b-a96d-1e272100cce6" name="WpfHelper.Modeling">
+    <elementDefinition Id="28d12af5-cb5b-4480-80e0-fd2199ee86a9" />
+  </package>
+</logicalClassDesignerModel>

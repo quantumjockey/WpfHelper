@@ -31,7 +31,7 @@ namespace WpfHelper.ViewModel.Windows
         #endregion
 
         ////////////////////////////////////////
-        #region Properties
+        #region Members
 
         /// <summary>
         /// Indicates whether or not this window is Active (i.e. open/closed).

@@ -7,15 +7,11 @@ using System.ComponentModel;
 #endregion
 ///////////////////////////////////////
 
-namespace WpfHelper.ViewModel.Windows
+namespace WpfHelper.ViewModel.Workspaces
 {
-    /// <summary>
-    /// Template for a class mapped to a WPF Window object as a ViewModel.
-    /// </summary>
-    public interface IWindowViewModel : INotifyPropertyChanged
+    public interface IWorkspaceViewModel : INotifyPropertyChanged
     {
         // Property Signatures
         bool IsActive { get; set; }
-        bool IsParent { get; set; }
     }
 }

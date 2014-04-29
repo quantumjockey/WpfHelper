@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("WpfHelper")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A small library that helps users to understand and implement MVVM architecture in Windows Presentation Foundation (WPF) Applications.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Nicola B. DiPalma")]
 [assembly: AssemblyProduct("WpfHelper")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCopyright("Copyright © 2014 Nicola B. DiPalma")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
