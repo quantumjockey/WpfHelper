@@ -3,6 +3,7 @@
 
 using System;
 using WpfHelper.ViewModel;
+using WpfHelper.ViewModel.Controls;
 
 #endregion
 //////////////////////////////////////
@@ -50,6 +51,20 @@ namespace WpfHelper.ViewModel.Workspaces
         #endregion
 
         ////////////////////////////////////////
+        #region Actions
+
+        /// <summary>
+        /// Exposes an action that allows the user to deactivate this workspace.
+        /// </summary>
+        public CommandDrivenControlViewModel DeactivateWorkspace
+        {
+            get;
+            private set;
+        }
+
+        #endregion
+
+        ////////////////////////////////////////
         #region Constructor(s)
 
         /// <summary>
@@ -64,6 +79,22 @@ namespace WpfHelper.ViewModel.Workspaces
             : base(header)
         {
             IsActive = true;
+            InitializeClosableWorkspaceActions();
+        }
+
+        #endregion
+
+        ////////////////////////////////////////
+        #region Supporting Methods
+
+        private void InitializeClosableWorkspaceActions()
+        {
+            DeactivateWorkspace = new CommandDrivenControlViewModel((x) => MakeWorkspaceInactive(), "Close", "Close this workspace.");
+        }
+
+        private void MakeWorkspaceInactive()
+        {
+            IsActive = false;
         }
 
         #endregion
