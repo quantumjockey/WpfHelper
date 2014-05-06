@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
   Id="28d12af5-cb5b-4480-80e0-fd2199ee86a9"
   name="WpfHelper.Modeling" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -19,308 +19,28 @@
   </profileInstances>
   <packagedElements>
     <packageHasNamedElement>
-      <Interface
-        Id="6508da73-e93c-43b2-b371-1b94abf510d7"
-        name="IViewModel"
-        isAbstract="false"
-        isLeaf="false">
-        <ownedAttributes>
-          <property
-            Id="98da60e7-99b6-4246-a779-be2072c2c5ac"
-            name="Header"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-        </ownedAttributes>
-      </Interface>
+      <packageMoniker
+        Id="b80e4e6b-a464-4667-98e3-1019be8c3e5f"
+        LastKnownName="Command"
+        LastKnownLocation="Package_1716.uml" />
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <Interface
-        Id="a39165ad-411c-4c0f-845e-19bd0495b6fe"
-        name="IWindowViewModel"
-        isAbstract="false"
-        isLeaf="false">
-        <ownedAttributes>
-          <property
-            Id="1e7b5461-f068-455c-bbe4-7f28b09908a0"
-            name="IsActive"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="1deafb51-1365-4443-a366-c64ab3cbe2af"
-            name="IsParent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-        </ownedAttributes>
-      </Interface>
+      <packageMoniker
+        Id="ab52f11e-6729-4f00-a8f6-69d15c663f5b"
+        LastKnownName="Initialization"
+        LastKnownLocation="Package1_1716.uml" />
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <class
-        Id="8cdc00ac-65f0-4233-8f0b-348349d167ac"
-        name="WindowViewModel"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false">
-        <suppliersInternal>
-          <interfaceRealization
-            Id="6d7a324f-8d0d-4096-a51e-9a7614da0208">
-            <interfaceMoniker
-              Id="a39165ad-411c-4c0f-845e-19bd0495b6fe"
-              LastKnownName="IWindowViewModel"
-              LastKnownLocation="WpfHelper.Modeling.uml" />
-          </interfaceRealization>
-        </suppliersInternal>
-        <generalsInternal>
-          <generalization
-            Id="5b9bd2f4-c8a4-4dd7-b1bd-969e3863f73a"
-            isSubstitutable="false">
-            <classMoniker
-              Id="9e6446f6-3fd4-4ec2-b03e-e55a34d27701"
-              LastKnownName="ViewModelBase"
-              LastKnownLocation="WpfHelper.Modeling.uml" />
-          </generalization>
-        </generalsInternal>
-        <ownedAttributesInternal>
-          <property
-            Id="e49437e2-cadb-459e-a593-6788be58ab20"
-            name="IsActive"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="4e3fd7cf-f4a8-4fc4-8a06-666a4dd209a2"
-            name="IsParent"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-        </ownedAttributesInternal>
-      </class>
+      <packageMoniker
+        Id="14c95b93-e0f3-485a-95c5-4fb0ea6c0763"
+        LastKnownName="PropertyChanged"
+        LastKnownLocation="Package2_1716.uml" />
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <class
-        Id="9e6446f6-3fd4-4ec2-b03e-e55a34d27701"
-        name="ViewModelBase"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false">
-        <suppliersInternal>
-          <interfaceRealization
-            Id="68f7a18e-38b3-4904-a46e-a8da72485b2e">
-            <interfaceMoniker
-              Id="6508da73-e93c-43b2-b371-1b94abf510d7"
-              LastKnownName="IViewModel"
-              LastKnownLocation="WpfHelper.Modeling.uml" />
-          </interfaceRealization>
-        </suppliersInternal>
-        <ownedAttributesInternal>
-          <property
-            Id="e20fc6cb-9eee-4c58-81a1-ab4686f0a775"
-            name="Header"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-        </ownedAttributesInternal>
-      </class>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
-        Id="e5615317-769d-4ff6-b257-5637e2f33ec7"
-        name="CommandRelay"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false">
-        <ownedOperationsInternal>
-          <operation
-            Id="0cf809f8-8aa1-4843-ad9d-89561f78488d"
-            name="CanExecute"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false" />
-          <operation
-            Id="1e6af3ce-bb4b-454c-affd-e4ba9cbb1845"
-            name="Execute"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false" />
-        </ownedOperationsInternal>
-      </class>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
-        Id="c961282b-bf05-418d-acdc-ed97a66edf93"
-        name="WindowInitializer"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false">
-        <ownedOperationsInternal>
-          <operation
-            Id="4aa22d68-30da-41eb-9014-faf1d5562466"
-            name="Close"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false" />
-          <operation
-            Id="33045afb-3a0b-4d7f-adc5-cca915b43ff2"
-            name="Show"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false" />
-        </ownedOperationsInternal>
-      </class>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
-        Id="bbb0f34a-b4e1-4f48-b055-380d4575e593"
-        name="propertyChangedNotificationHandling"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false">
-        <ownedOperationsInternal>
-          <operation
-            Id="7d2361b5-f6fa-4ea2-8f56-fddf0b175f35"
-            name="OnPropertyChanged"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false" />
-        </ownedOperationsInternal>
-      </class>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
-        Id="d891cea3-ef93-4c6b-930a-5f04699ed54e"
-        name="CommandDrivenControlViewModel"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false">
-        <ownedAttributesInternal>
-          <property
-            Id="03146bdb-0b91-4bae-a573-2f84680ba077"
-            name="Action"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="abca0aa9-7ef8-467a-9f90-2df0b7f1b5b9"
-            name="Name"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="d4ff17ee-52d1-47c0-b220-1b32c098afd6"
-            name="ToolTip"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-        </ownedAttributesInternal>
-      </class>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <Interface
-        Id="de3493d5-0428-435f-a8ca-15efdd3e7ea2"
-        name="IWorkspaceViewModel"
-        isAbstract="false"
-        isLeaf="false">
-        <ownedAttributes>
-          <property
-            Id="fba46c78-3243-4722-834a-919010a4610c"
-            name="IsActive"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-        </ownedAttributes>
-      </Interface>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
-        Id="4f4e9ce6-5d65-44fb-ac1a-2fff31304497"
-        name="WorkspaceViewModel"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false">
-        <suppliersInternal>
-          <interfaceRealization
-            Id="e0dc0898-0ca7-44b3-ae34-d6051660fd1e">
-            <interfaceMoniker
-              Id="de3493d5-0428-435f-a8ca-15efdd3e7ea2"
-              LastKnownName="IWorkspaceViewModel"
-              LastKnownLocation="WpfHelper.Modeling.uml" />
-          </interfaceRealization>
-        </suppliersInternal>
-        <ownedAttributesInternal>
-          <property
-            Id="f51eb2c7-77db-4b0a-8073-8d5d080557be"
-            name="IsActive"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-          <property
-            Id="08ead376-1ceb-4e1e-b9f2-02eecc26f890"
-            name="DeactivateWorkspace"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
-        </ownedAttributesInternal>
-      </class>
+      <packageMoniker
+        Id="3e5cbf1a-156b-46d9-a282-d819e103b6aa"
+        LastKnownName="ViewModel"
+        LastKnownLocation="Package3_1716.uml" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
