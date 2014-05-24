@@ -10,9 +10,6 @@ using WpfHelper.ViewModel.Controls;
 
 namespace WpfHelper.Test.ViewModel.Controls
 {
-    /// <summary>
-    /// Unit tests addressing functionality within the "WpfHelper.ViewModel.Controls.CommandDrivenControlViewModel" class.
-    /// </summary>
     [TestClass]
     public class CommandDrivenControlViewModelTest
     {

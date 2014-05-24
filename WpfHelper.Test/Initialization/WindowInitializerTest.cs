@@ -2,7 +2,6 @@
 #region Namespace Directives
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using System.Windows; // via the "PresentationFramework.dll" assembly
 using WpfHelper.Initialization;
 using WpfHelper.ViewModel.Windows;
@@ -18,9 +17,6 @@ using WpfHelper.ViewModel.Windows;
 
 namespace WpfHelper.Test.Initialization
 {
-    /// <summary>
-    /// Unit tests addressing functionality within the "WpfHelper.Initialization.WindowInitializer" class.
-    /// </summary>
     [TestClass]
     public class WindowInitializerTest
     {

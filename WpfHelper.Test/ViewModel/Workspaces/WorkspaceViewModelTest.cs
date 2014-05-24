@@ -2,7 +2,6 @@
 #region Namespace Directives
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using WpfHelper.ViewModel.Workspaces;
 
 #endregion
@@ -10,9 +9,6 @@ using WpfHelper.ViewModel.Workspaces;
 
 namespace WpfHelper.Test.ViewModel.Workspaces
 {
-    /// <summary>
-    /// Describes the "WpfHelper.Workspaces.WorkspaceViewModel" class.
-    /// </summary>
     [TestClass]
     public class WorkspaceViewModelTest
     {

@@ -10,9 +10,6 @@ using WpfHelper.ViewModel;
 
 namespace WpfHelper.Test.ViewModel
 {
-    /// <summary>
-    /// Unit tests addressing functionality within the "WpfHelper.ViewModel.ViewModel" class.
-    /// </summary>
     [TestClass]
     public class ViewModelTest
     {

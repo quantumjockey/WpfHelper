@@ -10,9 +10,6 @@ using WpfHelper.PropertyChanged;
 
 namespace WpfHelper.Test.PropertyChanged
 {
-    /// <summary>
-    /// Unit tests addressing functionality within the "WpfHelper.PropertyChanged.propertyChangedNotificationHandling" class.
-    /// </summary>
     [TestClass]
     public class propertyChangedNotificationHandlingTest
     {

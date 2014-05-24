@@ -2,7 +2,6 @@
 #region Namespace Directives
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using WpfHelper.ViewModel.Windows;
 
 #endregion
@@ -10,9 +9,6 @@ using WpfHelper.ViewModel.Windows;
 
 namespace WpfHelper.Test.ViewModel.Windows
 {
-    /// <summary>
-    /// Unit tests addressing functionality within the "WpfHelper.ViewModel.Windows.WindowViewModel" class.
-    /// </summary>
     [TestClass]
     public class WindowViewModelTest
     {

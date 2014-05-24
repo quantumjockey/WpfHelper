@@ -2,7 +2,6 @@
 #region Namespace Directives
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using WpfHelper.Command;
 
 #endregion
@@ -10,9 +9,6 @@ using WpfHelper.Command;
 
 namespace WpfHelper.Test.Command
 {
-    /// <summary>
-    /// Unit tests addressing functionality within the "WpfHelper.Command.CommandRelay" class.
-    /// </summary>
     [TestClass]
     public class CommandRelayTest
     {
