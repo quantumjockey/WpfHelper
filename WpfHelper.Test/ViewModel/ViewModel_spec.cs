@@ -11,7 +11,7 @@ using WpfHelper.ViewModel;
 namespace WpfHelper.Test.ViewModel
 {
     [TestClass]
-    public class ViewModelTest
+    public class ViewModel_spec
     {
         ////////////////////////////////////////
         #region Unit Tests (Methods)

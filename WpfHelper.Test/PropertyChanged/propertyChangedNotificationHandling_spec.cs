@@ -11,7 +11,7 @@ using WpfHelper.PropertyChanged;
 namespace WpfHelper.Test.PropertyChanged
 {
     [TestClass]
-    public class propertyChangedNotificationHandlingTest
+    public class propertyChangedNotificationHandling_spec
     {
         ////////////////////////////////////////
         #region Unit Tests (Methods)

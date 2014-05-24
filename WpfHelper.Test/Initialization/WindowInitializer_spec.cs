@@ -18,7 +18,7 @@ using WpfHelper.ViewModel.Windows;
 namespace WpfHelper.Test.Initialization
 {
     [TestClass]
-    public class WindowInitializerTest
+    public class WindowInitializer_spec
     {
         ////////////////////////////////////////
         #region Unit Tests (Methods)

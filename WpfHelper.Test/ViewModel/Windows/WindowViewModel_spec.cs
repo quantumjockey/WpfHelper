@@ -10,7 +10,7 @@ using WpfHelper.ViewModel.Windows;
 namespace WpfHelper.Test.ViewModel.Windows
 {
     [TestClass]
-    public class WindowViewModelTest
+    public class WindowViewModel_spec
     {
         ////////////////////////////////////////
         #region Unit Tests (Methods)

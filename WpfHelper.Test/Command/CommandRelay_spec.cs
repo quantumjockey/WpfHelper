@@ -10,7 +10,7 @@ using WpfHelper.Command;
 namespace WpfHelper.Test.Command
 {
     [TestClass]
-    public class CommandRelayTest
+    public class CommandRelay_spec
     {
         ////////////////////////////////////////
         #region Unit Tests (Methods)

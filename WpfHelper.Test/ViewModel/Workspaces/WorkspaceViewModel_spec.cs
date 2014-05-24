@@ -10,7 +10,7 @@ using WpfHelper.ViewModel.Workspaces;
 namespace WpfHelper.Test.ViewModel.Workspaces
 {
     [TestClass]
-    public class WorkspaceViewModelTest
+    public class WorkspaceViewModel_spec
     {
         ////////////////////////////////////////
         #region Unit Tests (Methods)

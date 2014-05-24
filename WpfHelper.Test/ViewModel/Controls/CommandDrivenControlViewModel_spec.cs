@@ -11,7 +11,7 @@ using WpfHelper.ViewModel.Controls;
 namespace WpfHelper.Test.ViewModel.Controls
 {
     [TestClass]
-    public class CommandDrivenControlViewModelTest
+    public class CommandDrivenControlViewModel_spec
     {
         ////////////////////////////////////////
         #region Unit Tests (Methods)
