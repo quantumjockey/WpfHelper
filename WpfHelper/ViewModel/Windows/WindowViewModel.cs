@@ -1,9 +1,7 @@
 ﻿///////////////////////////////////////
 #region Namespace Directives
 
-using System;
-using System.ComponentModel;
-using WpfHelper.ViewModel;
+// none
 
 #endregion
 ///////////////////////////////////////

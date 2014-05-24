@@ -1,7 +1,6 @@
 ﻿///////////////////////////////////////
 #region Namespace Directives
 
-using System;
 using System.Windows; // via the "PresentationFramework.dll" assembly
 using WpfHelper.ViewModel.Windows;
 
