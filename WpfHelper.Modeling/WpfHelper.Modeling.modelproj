@@ -22,6 +22,20 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="Command\CommandRelay.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Command\CommandRelay.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Command\CommandRelay.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Initialization\WindowInitializer.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Initialization\WindowInitializer.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Initialization\WindowInitializer.classdiagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\Package1_1716.uml">
       <SubType>Content</SubType>
     </Content>
@@ -43,58 +57,51 @@
     <Content Include="ModelDefinition\Package_1716.uml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="propertyChangedNotificationHandling.classdiagram">
+    <Content Include="PropertyChanged\propertyChangedNotificationHandling.classdiagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="propertyChangedNotificationHandling.classdiagram.layout">
+    <Content Include="PropertyChanged\propertyChangedNotificationHandling.classdiagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>propertyChangedNotificationHandling.classdiagram</DependentUpon>
+      <DependentUpon>PropertyChanged\propertyChangedNotificationHandling.classdiagram</DependentUpon>
     </Content>
-    <Content Include="ViewModelBase.classdiagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="ViewModelBase.classdiagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>ViewModelBase.classdiagram</DependentUpon>
-    </Content>
-    <Content Include="WindowInitializer.classdiagram">
+    <Content Include="ViewModel\Controls\CommandDrivenControlViewModel.classdiagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="WindowInitializer.classdiagram.layout">
+    <Content Include="ViewModel\Controls\CommandDrivenControlViewModel.classdiagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>WindowInitializer.classdiagram</DependentUpon>
+      <DependentUpon>ViewModel\Controls\CommandDrivenControlViewModel.classdiagram</DependentUpon>
     </Content>
-    <Content Include="WindowViewModel.classdiagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="WindowViewModel.classdiagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>WindowViewModel.classdiagram</DependentUpon>
-    </Content>
-    <Content Include="WorkspaceViewModel.classdiagram">
+    <Content Include="ViewModel\ViewModelBase.classdiagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="WorkspaceViewModel.classdiagram.layout">
+    <Content Include="ViewModel\ViewModelBase.classdiagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>WorkspaceViewModel.classdiagram</DependentUpon>
+      <DependentUpon>ViewModel\ViewModelBase.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ViewModel\Windows\WindowViewModel.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ViewModel\Windows\WindowViewModel.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ViewModel\Windows\WindowViewModel.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ViewModel\Workspaces\WorkspaceViewModel.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ViewModel\Workspaces\WorkspaceViewModel.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ViewModel\Workspaces\WorkspaceViewModel.classdiagram</DependentUpon>
     </Content>
     <Folder Include="ModelDefinition\" />
-    <Content Include="CommandDrivenControlViewModel.classdiagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="CommandDrivenControlViewModel.classdiagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>CommandDrivenControlViewModel.classdiagram</DependentUpon>
-    </Content>
-    <Content Include="CommandRelay.classdiagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="CommandRelay.classdiagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>CommandRelay.classdiagram</DependentUpon>
-    </Content>
     <Content Include="ModelDefinition\WpfHelper.Modeling.uml">
       <SubType>Content</SubType>
     </Content>
+    <Folder Include="Command" />
+    <Folder Include="Initialization" />
+    <Folder Include="ViewModel" />
+    <Folder Include="PropertyChanged" />
+    <Folder Include="ViewModel\Controls" />
+    <Folder Include="ViewModel\Workspaces" />
+    <Folder Include="ViewModel\Windows" />
   </ItemGroup>
 </Project>
