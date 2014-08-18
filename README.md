@@ -15,6 +15,8 @@ Notes
 
 All code in this library has been composed in a self-documenting fashion and styled for readability where possible. All public members, methods, and constructors have complete XML documentation for use with VS Intellisense.
 
+This library takes component material (a.k.a. "The Details") regarding property change notification from an understanding of material published in [How To: Implement Property Changed Notification](http://msdn.microsoft.com/en-us/library/ms743695.aspx) on MSDN. More functionality to come. Material regarding delegates and the use of lambda functions in WPF is derived from an understanding of [WPF Apps With the Model-View-ViewModel Design Pattern](http://msdn.microsoft.com/en-us/magazine/dd419663.aspx) on MSDN. Any future implementations inspired by or closely adhering to material from MSDN will be referenced in this section, as well as explanation of any significant technical concerns that may arise during testing.
+
 This solution, including unit tests and architectural models, was created, debugged, and deployed using [Visual Studio 2012 Ultimate with MSDN](http://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Visual_Studio_2012) (link contains addtional references). The solution may not open properly if you try using an earlier or less feature-saturated version of Visual Studio. If a later version is used, be sure to check the cloned solution against original source code to ensure that compatiblity changes haven't significantly altered existing functionality.
 
 Instructions
